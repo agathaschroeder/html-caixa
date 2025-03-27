@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+@font-face {
+    font-family: grafite;
+    src: url(/fonts/bigwogs_gt/BigwogsGTDemo.otf) format("opentype"),
+         url(/fonts/bigwogs_gt/BigwogsGTDemo.ttf) format("truetype");
+}
+
+body {
+    background: url(/html-caixa-main/img/fundo.jpg); /* Ajuste o caminho se necessário */
+    background-size: cover;
+}
+
+h3 {
+    color: rgb(175, 40, 40);
+}
